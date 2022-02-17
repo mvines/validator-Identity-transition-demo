@@ -139,7 +139,7 @@ $ solana-validator -l primary-ledger set-identity primary-unstaked-identity.json
 Rewrite the identity symlink, so that if the primary validator restarts it
 will not revert back to using the staked identity
 ```
-$ ln -sf primary-unstaked-identity.jso primary-identity.json
+$ ln -sf primary-unstaked-identity.json primary-identity.json
 ```
 
 Important! Your primary validator is now not voting and the following steps must
@@ -170,7 +170,7 @@ $ solana-validator -l secondary-ledger set-identity --require-tower staked-ident
 Rewrite the identity symlink, so that if the secondary validator restarts it
 will resume using the staked identity
 ```
-$ ln -sf staked-identity.jso secondary-identity.json
+$ ln -sf staked-identity.json secondary-identity.json
 ```
 
 ## Done!
