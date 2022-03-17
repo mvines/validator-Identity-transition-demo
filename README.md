@@ -178,6 +178,5 @@ The secondary validator is now voting. Running `solana -ul validators` to
 confirm and at this point halting the primary validator will not cause
 delinquency.
 
-Upgrade your primary validator, restart it using `--identity
-primary-unstaked-identity.json`, and then perform the transition steps in
-reverse to move voting and block production back to your primary machine
+Upgrade your primary validator, restart it, and then perform the steps in
+opposite direction to transition voting and block production back to your primary machine
