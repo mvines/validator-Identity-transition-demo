@@ -149,7 +149,7 @@ be performed as quickly as possible to avoid delinquency.
 In this demo environment, a simple `mv` command is sufficient to transfer the
 tower file:
 ```
-$ mv primary-ledger/tower-$(solana-keygen pubkey staked-identity.json).bin secondary-ledger/
+$ mv primary-ledger/tower-{,1_9-}$(solana-keygen pubkey staked-identity.json).bin secondary-ledger/
 ```
 
 In a production environment, `scp` and `rm` can be used to transfer the tower file from
