@@ -8,6 +8,9 @@ setup](https://docs.solana.com/running-validator/validator-failover) in that it
 does not require you to setup an etcd cluster, and you must manage relocating
 the tower file.
 
+For an Ansible version of this guide, please refer to
+https://github.com/backbone-link/solana-identity-transition
+
 # Setup
 The demo is run locally on your machine.
 
